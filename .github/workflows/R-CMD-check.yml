@@ -46,7 +46,7 @@ jobs:
           pak-version: devel
           extra-packages: |
             any::rcmdcheck
-            cran::AdaptGauss?source
+            AdaptGauss=?source
             DataVisualizations=?source
           needs: |
             check
