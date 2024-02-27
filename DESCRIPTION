@@ -48,7 +48,9 @@ Imports:
   Rdpack (>= 0.7),
   shiny,
   shinyjs,
-  TreeTools (>= 1.7.2),
+  TreeTools (>= 1.7.2)
+Remotes:
+  ms609/TreeTools
 Suggests:
   bookdown,
   cluster,
