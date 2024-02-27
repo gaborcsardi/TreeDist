@@ -43,6 +43,11 @@ jobs:
       - name: Set up R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
+          pak-version: devel
+          extra-packages: |
+            any::rcmdcheck
+            cran::AdaptGauss?source
+            DataVisualizations=?source
           needs: |
             check
             coverage
