@@ -46,8 +46,8 @@ jobs:
           pak-version: devel
           extra-packages: |
             any::rcmdcheck
-            AdaptGauss=?source
-            DataVisualizations=?source
+            AdaptGauss=?source&reinstall
+            DataVisualizations=?source&reinstall
           needs: |
             check
             coverage
