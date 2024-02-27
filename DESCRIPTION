@@ -50,7 +50,8 @@ Imports:
   shinyjs,
   TreeTools (>= 1.7.2)
 Remotes:
-  ms609/TreeTools
+  ms609/TreeTools,
+  ms609/TreeDistData
 Suggests:
   bookdown,
   cluster,
